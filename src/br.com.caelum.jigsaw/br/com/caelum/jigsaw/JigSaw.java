@@ -1,8 +1,10 @@
 package br.com.caelum.jigsaw;
 
+import javax.swing.JOptionPane;
+
 class JigSaw {
 
 	public static void main(String... args) {
-		System.out.println("Olá Java 9 modular!");
+		JOptionPane.showMessageDialog(null, "Olá Java 9 modular!");
 	}
 }
